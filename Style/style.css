@@ -1,0 +1,35 @@
+body{
+    background-color: #CCD5FF;
+}
+.contenedor{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 450px;
+}
+.btn-modern{
+    background-color:#23C9FF;
+    color: white;
+    border-radius: 5PX;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+    padding: 25px;
+    margin-top: 15%;
+    transition:  0.4s;
+}
+
+.btn-modern:hover{
+    background-color:#7CC6FE;
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.contenedor:hover .btn-modern{
+    transform: translateY(-5px);
+}
